@@ -2,10 +2,15 @@
   "expo": {
     "name": "Tindahan-Mobile-App",
     "slug": "Tindahan-Mobile-App",
+    "scheme": "tindahan",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "androidStatusBar": {
+      "backgroundColor": "#4F46E5",
+      "barStyle": "light-content"
+    },
     "ios": {
       "supportsTablet": true
     },
@@ -19,6 +24,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-splash-screen",
+      "expo-sqlite"
+    ]
   }
 }
